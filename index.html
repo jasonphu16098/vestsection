@@ -183,7 +183,26 @@
         grid-template-columns: 1fr;
       }
     }
-    
+    #back-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  background-color: rgba(42, 157, 143, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(42, 157, 143, 0.7);
+  z-index: 1100;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+#back-icon:hover {
+  background-color: #1e7a6c;
+}
     </style>
 </head>
 <body>
